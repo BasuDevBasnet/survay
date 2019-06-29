@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>survay form</title>
+    <style>
+    body{
+  font-family: sans-serif;
+  text-align: center;
+}
+input[type=text] {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 2px;
+  margin: 10px
+}
+
+h1{
+  font-family: sans-serif;
+  text-align: center;
+}
+h3{
+  font-family:sans-serif;
+  font-weight: normal
+}
+  </style>
+  </head>
+  <body>
+    <h1>Survey Form</h1>
+    <h3>Let us know how we can improve freeCodeCamp</h3>
+    <label>* Name: </label>
+    <input type="text" name="username" id="user_name" placeholder="Enter Your Name" size="35"><br>
+    <label>* Email:</label>
+    <input type="text" id="user_email" name="useremail" placeholder="Enter Your Email" size="35"><br/>
+    <label>* Age: </label>
+    <input type="text" name="age" id="user_age" placeholder="Enter Your age" size="35"><br/>
+    <label>Which option best describes your current role?</label>
+    <select>
+      <option value="student">Student</option>
+      <option value="Full time job">Full Time Job</option>
+      <option value="Full time learner">FullTime Learner</option>
+      <option value="perfer not to say">Perfer Not To Say</option>
+      <option vlaue="others">Others</option>
+    </select><br />
+    
+    <label>* How likely is that you would recommend freeCodeCamp to a friend?</label><br />
+    <input type="checkbox" name="option1" value="definitely">Definitely<br/>
+    <input type="checkbox" name="option2" value="Maybe">Maybe<br />
+    <input type="checkbox" name="option3" value="not sure">Not Sure<br />
+    <label>What do you like most in FCC:</label>
+    <select>
+      <option value="challenges">Challenges</option>
+      <option vlaue ="projects">Projects</option>
+      <option value="community">Community</option>
+      <option value="open source">Open Source</option>
+    </select><br >
+    <label>Things that should be improved in the future
+      (Check all that apply):</label><br />
+    <input type="checkbox" value="option1" name="front_end">Front-end Projects<br />
+    <input type="checkbox" value="option2" name="back_end">Back-End Projects<br />
+    <input type="checkbox" value="option3" name="data_visualization">Data Visualization<br />
+    <input type="checkbox" value="option3" name="challenges">Challenges<br />
+    <input type="checkbox" value="option4" name="open_source">Open Source Community<br />
+    <input type="checkbox" value="option5" name="gitter">Gitter help rooms<br />
+    <input type="checkbox" value="option6" name="videos">Videos<br />
+    <input type="checkbox" value="option7" name="city">City Meetsup<br/>
+    <input type="checkbox" value="option8" name="wiki">Wiki<br />
+    <input type="checkbox" value="option9" name="forom">Forum<br/>
+    <input type="checkbox" value="option10" name="additional">Additional Courcses<br />
+    <label>Any Comments or Suggestions?</label>
+    <textarea rows="4" cols="50" name="comment">Enter your comment here...</textarea><br />
+    <input type="submit">
+  </body>
+</html>
